@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { Check } from "lucide-react";
 // import { FaShoppingCart } from 'react-icons/fa';
 //I created a max with wrapper a custom component we can reuse acros our app
 
@@ -15,24 +16,32 @@ export default function Home() {
                 <Image
                   src="/snake-1.png"
                   alt="snake"
-                  width={500}
-                  height={500}
-                  className="w-full"
+                  width={200}
+                  height={200}
                 />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
                 {" "}
-                Your Image on a{" "}
-                <span className="bg-green-600 px-2 text-white">
+                Create Your Own{" "}
+                <span className="bg-blue-700 px-2 text-white">
                   Custom
                 </span>{" "}
                 Phone Case
               </h1>
               <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
-                Capture your favorite memories with your own, {''}
+                Capture your favorite memories with your own, {""}
                 <span className="font-semibold">one-of-one</span> phone case.
-                CaseCobra allows you to protect your memories, not just your phone. 
+                CaseCobra allows you to protect your memories, not just your
+                phone.
               </p>
+              <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm-items-start">
+                <div className="space-y-2">
+                  <li className="flex gap-1.5 items-center text-left"><Check className="h-5 w-5 shrink-0 text-green-600"/> High-quality, durable material</li>
+                  <li className="flex gap-1.5 items-center text-left"><Check className="h-5 w-5 shrink-0 text-green-600"/>6 year print guarantee</li>
+                  <li className="flex gap-1.5 items-center text-left"><Check className="h-5 w-5 shrink-0 text-green-600"/> Modern iPhone Models Supported</li>
+                  
+                </div>
+              </ul>
             </div>
           </div>
         </MaxWidthWrapper>
