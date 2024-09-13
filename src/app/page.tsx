@@ -58,51 +58,56 @@ export default function Home() {
                     className="inline-block rounded-full ring-2 ring-slate-100"
                     src="/users/user-1.png"
                     alt="user-image"
-                    width={40} 
-                    height={40} 
+                    width={40}
+                    height={40}
                   />
-                   <Image
+                  <Image
                     className="inline-block rounded-full ring-2 ring-slate-100"
                     src="/users/user-2.png"
                     alt="user-image"
-                    width={40} 
-                    height={40} 
+                    width={40}
+                    height={40}
                   />
-                   <Image
+                  <Image
                     className="inline-block rounded-full ring-2 ring-slate-100"
                     src="/users/user-3.png"
                     alt="user-image"
-                    width={40} 
-                    height={40} 
+                    width={40}
+                    height={40}
                   />
-                   <Image
+                  <Image
                     className="inline-block rounded-full ring-2 ring-slate-100"
                     src="/users/user-4.jpg"
                     alt="user-image"
-                    width={40} 
-                    height={40} 
+                    width={40}
+                    height={40}
                   />
-                   <Image
+                  <Image
                     className="inline-block object-cover rounded-full ring-2 ring-slate-100"
                     src="/users/user-5.jpg"
                     alt="user-image"
-                    width={40} 
-                    height={40} 
+                    width={40}
+                    height={40}
                   />
                 </div>
                 <div className="flex flex-col justify-between items-center sm:items-start">
                   <div className="flex gap-0.5">
-                    <Star className="h-4 w-4 text-green-600 fill-green-600"/>
-                    <Star className="h-4 w-4 text-green-600 fill-green-600"/>
-                    <Star className="h-4 w-4 text-green-600 fill-green-600"/>
-                    <Star className="h-4 w-4 text-green-600 fill-green-600"/>
-                    <Star className="h-4 w-4 text-green-600 fill-green-600"/>
+                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
                   </div>
                   <p className="text-gray-700 text-sm">Rated 4.9/5</p>
-                  <p className="text-gray-700 text-sm">Based on 1000+ reviews</p>
+                  <p className="text-gray-700 text-sm">
+                    Based on 1000+ reviews
+                  </p>
                 </div>
               </div>
             </div>
+          </div>
+          <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
+            
           </div>
         </MaxWidthWrapper>
       </section>
